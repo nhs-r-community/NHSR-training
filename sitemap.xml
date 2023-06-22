@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://github.com/nhs-r-community/NHSR-training/index.html</loc>
+    <lastmod>2023-06-22T16:06:29.216Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/NHSR-training/intro-r-rstudio-summary.html</loc>
+    <lastmod>2023-06-22T16:06:29.932Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/NHSR-training/intro-git-rstudio-summary.html</loc>
+    <lastmod>2023-06-22T16:06:30.300Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/NHSR-training/shiny-summary.html</loc>
+    <lastmod>2023-06-22T16:06:30.632Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/NHSR-training/strategy-unit.html</loc>
+    <lastmod>2023-06-22T16:06:30.932Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/NHSR-training/other-courses.html</loc>
+    <lastmod>2023-06-22T16:06:31.280Z</lastmod>
+  </url>
+</urlset>
