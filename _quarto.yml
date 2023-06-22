@@ -13,7 +13,10 @@ project:
 
 website:
   title: "NHSR-training"
-  repo-actions: [issue]
+  site-url: https://github.com/nhs-r-community/
+  repo-url: https://github.com/nhs-r-community/NHSR-training
+  issue-url: https://github.com/nhs-r-community/NHSR-training/issues/new/choose
+  repo-actions: [edit, issue]
   navbar:
     background: primary
     left:
@@ -21,7 +24,7 @@ website:
         text: Home
     right:
       - icon: github
-        href: https://github.com/nhs-r-community
+        href: https://github.com/nhs-r-community/NHSR-training
   sidebar:
     style: "docked"
     search: true
