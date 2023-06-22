@@ -7,10 +7,66 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "docs/about.html",
+    "href": "docs/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "NHSR-training",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html",
+    "href": "intro-git-rstudio-summary.html",
+    "title": "Introduction to Git and GitHub - RStudio summary",
+    "section": "",
+    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "href": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "title": "Introduction to Git and GitHub - RStudio summary",
+    "section": "Session 1: Introduction and getting started",
+    "text": "Session 1: Introduction and getting started\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-2",
+    "href": "intro-git-rstudio-summary.html#session-2",
+    "title": "Introduction to Git and GitHub - RStudio summary",
+    "section": "Session 2:",
+    "text": "Session 2:\n\nRepeat first workflow and create a merge conflict!\nHow to resolve a merge conflict"
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html",
+    "href": "intro-r-rstudio-summary.html",
+    "title": "R and R Studio course summary",
+    "section": "",
+    "text": "Based on the hugely popular Introduction to R and R Studio course run by NHS-R Community volunteers, the one day course has been extended into 3 half days and covers the principles of data manipulation. The concepts covered in the course, and even some function names, will be familiar to those who use SQL and this course is aimed at those who have not used R/RStudio before or used only very little of it (perhaps running other people’s work for example). As we work through the course we will be using and exploring Quarto to see how reports that mix text and code can be produced in R as well as be used as a way of managing analysis workflow."
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "href": "intro-r-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "title": "R and R Studio course summary",
+    "section": "Session 1: Introduction and getting started",
+    "text": "Session 1: Introduction and getting started\n\nCourse agenda and aims\nIntroducing and getting started with RStudio\nIntroducing what packages are in R\nProjects\nOpening Quarto"
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-2-data-manipulation",
+    "href": "intro-r-rstudio-summary.html#session-2-data-manipulation",
+    "title": "R and R Studio course summary",
+    "section": "Session 2: Data Manipulation",
+    "text": "Session 2: Data Manipulation\n\nImport a csv\nImport a messy csv\nImport a csv from the web\n{dplyr} data wrangling with a selection of main functions\n{dplyr} showcase more functions\nCreating new objects\nIntroducing vectors\nJoining data together\nHow to style your R code"
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-3-categorical-variables",
+    "href": "intro-r-rstudio-summary.html#session-3-categorical-variables",
+    "title": "R and R Studio course summary",
+    "section": "Session 3: Categorical Variables",
+    "text": "Session 3: Categorical Variables\n\nFinding help on functions using RStudio and the internet\nOngoing learning resources\nIntroducing chart visualisations using {ggplot2}\nUsing {datapasta}\nUsing {janitor} to remove blank rows/columns and tidy column names\nUsing {stringr} for cleaning with strings (for example % wildcard searches)"
   }
 ]

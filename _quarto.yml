@@ -1,13 +1,39 @@
 project:
   type: website
+  title: "NHSR Training"
+  execute-dir: project
+  output-dir: docs
+  render:
+      - index.qmd
+      - intro-r-rstudio-summary.qmd
+      - intro-git-rstudio-summary.qmd
+      - shiny-summary.qmd
+      - strategy-unit.qmd
+      - other-courses.qmd
 
 website:
   title: "NHSR-training"
+  repo-actions: [issue]
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/nhs-r-community
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - intro-r-rstudio-summary.qmd
+      - intro-git-rstudio-summary.qmd
+      - shiny-summary.qmd
+      - strategy-unit.qmd
+      - other-courses.qmd
+  page-navigation: true
+
 
 format:
   html:
@@ -15,5 +41,4 @@ format:
     css: styles.css
     toc: true
 
-
-
+callout-appearance: simple

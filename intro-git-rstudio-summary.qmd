@@ -1,0 +1,38 @@
+# Introduction to Git and GitHub (RStudio) workshop summary
+
+As recommended in the [Better, Broader, Safer review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. 
+This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}. 
+
+This course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community.
+
+# Learning outcomes
+-   Introducing Git and GitHub including getting set up
+-   Exploring the tools built within RStudio IDE (integrated development environment) related to Git
+-   Using the R Console to perform Git workflow tasks
+
+# Detailed Programme
+
+## Session 1: Introduction and getting started
+- What is Git and GitHub and why these are important to data analysis
+- Setting up for Git and GitHub
+- Explaining Git terminology
+- Take existing R project to GitHub
+- First workflow: 
+    - start a new project (naming branches)
+    - taking snapshots (creating commits)
+    - making it public on GitHub (pushing)
+- Second workflow:
+    - finding a branch to continue working from
+    - Pausing work for later
+- Open pull requests to the main branch
+
+## Session 2: 
+- Repeat first workflow and create a merge conflict!
+- How to resolve a merge conflict 
+
+
+# Pre-requisites
+Some previous knowledge of R and familiarity with RStudio is expected.
+
+# Duration
+2 half days (3.5 hours each day)

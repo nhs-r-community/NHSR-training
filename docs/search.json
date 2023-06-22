@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html",
+    "href": "intro-r-rstudio-summary.html",
+    "title": "Introduction to R and RStudio workshop summary",
+    "section": "",
+    "text": "Based on the hugely popular Introduction to R and R Studio course run by NHS-R Community volunteers, the one day course has been extended into 3 half days and covers the principles of data manipulation. The concepts covered in the course, and even some function names, will be familiar to those who use SQL and this course is aimed at those who have not used R/RStudio before or used only very little of it (perhaps running other people’s work for example). As we work through the course we will be using and exploring Quarto to see how reports that mix text and code can be produced in R as well as be used as a way of managing analysis workflow."
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "href": "intro-r-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "title": "Introduction to R and RStudio workshop summary",
+    "section": "Session 1: Introduction and getting started",
+    "text": "Session 1: Introduction and getting started\n\nCourse agenda and aims\nIntroducing and getting started with RStudio\nIntroducing what packages are in R\nProjects\nOpening Quarto"
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-2-data-manipulation",
+    "href": "intro-r-rstudio-summary.html#session-2-data-manipulation",
+    "title": "Introduction to R and RStudio workshop summary",
+    "section": "Session 2: Data Manipulation",
+    "text": "Session 2: Data Manipulation\n\nImport a csv\nImport a messy csv\nImport a csv from the web\n{dplyr} data wrangling with a selection of main functions\n{dplyr} showcase more functions\nCreating new objects\nIntroducing vectors\nJoining data together\nHow to style your R code"
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-3-categorical-variables",
+    "href": "intro-r-rstudio-summary.html#session-3-categorical-variables",
+    "title": "Introduction to R and RStudio workshop summary",
+    "section": "Session 3: Categorical Variables",
+    "text": "Session 3: Categorical Variables\n\nFinding help on functions using RStudio and the internet\nOngoing learning resources\nIntroducing chart visualisations using {ggplot2}\nUsing {datapasta}\nUsing {janitor} to remove blank rows/columns and tidy column names\nUsing {stringr} for cleaning with strings (for example % wildcard searches)"
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html",
+    "href": "intro-git-rstudio-summary.html",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "",
+    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "href": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 1: Introduction and getting started",
+    "text": "Session 1: Introduction and getting started\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-2",
+    "href": "intro-git-rstudio-summary.html#session-2",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 2:",
+    "text": "Session 2:\n\nRepeat first workflow and create a merge conflict!\nHow to resolve a merge conflict"
+  },
+  {
+    "objectID": "strategy-unit.html",
+    "href": "strategy-unit.html",
+    "title": "Strategy Unit information",
+    "section": "",
+    "text": "Strategy Unit information\nCourse information specific to training delivered through the Strategy Unit\n\n\nTrainers\nYour training will be led by:\nZoë Turner, Senior Data Science, The Strategy Unit, availability for booking.\n\n\nAudience\nThis course is free and available to …\n\n\nEquipment required\nThe course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the NHS-R Way book. See course pre-work for further set up information.\n\n\nLocation\nOnline – delivered via Zoom There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible."
+  },
+  {
+    "objectID": "other-courses.html",
+    "href": "other-courses.html",
+    "title": "Other courses",
+    "section": "",
+    "text": "The first Introduction to R and RStudio slides published through GitHub with the GitHub repository.\nAnalysis Function free online training to public sector and government employees Introduction to Git.\nNHS England R Programming Language in a Quarto site for self learning.\n\n\n\nA workshop from the NHS-R Conference in 2021 based on the scripted way of delivering courses.\nA slide based course on RMarkdown which was based on the conference workshop.\nNHS England [Quarto and RMarkdown](NHS England GitHub training in a Quarto site for self learning.\n\n\n\nA workshop from the NHS-R Conference in 2022 based on the scripted way of delivering courses and using the Terminal.\nNot NHS-R but from the NHS North Central London ICB Analytics Team an Introduction to Git and GitHub on the command line using a slide format.\nNHS England GitHub training in a Quarto site for self learning.\nAnalysis Function free online training to public sector and government employees Introduction to Git.\n\n\n\nAnalysis Function free online training to public sector and government employees Introduction to Git.\n\n\n\nAnalysis Function free online training to public sector and government employees Introduction to Git.\n\n\n\nAnalysis Function free online training to public sector and government employees Introduction to Git.\nNHS England Reproducible Analytical Pipelines (RAP) in a Quarto site for self learning.\n\n\n\nSlides from a Train the Trainer course held by the Strategy Unit to support the Introduction to R and RStudio."
+  },
+  {
+    "objectID": "other-courses.html#introduction-to-r-and-r-studio",
+    "href": "other-courses.html#introduction-to-r-and-r-studio",
+    "title": "Other courses",
+    "section": "",
+    "text": "The first Introduction to R and RStudio slides published through GitHub with the GitHub repository.\nAnalysis Function free online training to public sector and government employees Introduction to Git.\nNHS England R Programming Language in a Quarto site for self learning."
+  },
+  {
+    "objectID": "other-courses.html#introduction-to-rmarkdown",
+    "href": "other-courses.html#introduction-to-rmarkdown",
+    "title": "Other courses",
+    "section": "",
+    "text": "A workshop from the NHS-R Conference in 2021 based on the scripted way of delivering courses.\nA slide based course on RMarkdown which was based on the conference workshop.\nNHS England [Quarto and RMarkdown](NHS England GitHub training in a Quarto site for self learning."
+  },
+  {
+    "objectID": "other-courses.html#git-training",
+    "href": "other-courses.html#git-training",
+    "title": "Other courses",
+    "section": "",
+    "text": "A workshop from the NHS-R Conference in 2022 based on the scripted way of delivering courses and using the Terminal.\nNot NHS-R but from the NHS North Central London ICB Analytics Team an Introduction to Git and GitHub on the command line using a slide format.\nNHS England GitHub training in a Quarto site for self learning.\nAnalysis Function free online training to public sector and government employees Introduction to Git."
+  },
+  {
+    "objectID": "other-courses.html#introduction-to-python",
+    "href": "other-courses.html#introduction-to-python",
+    "title": "Other courses",
+    "section": "",
+    "text": "Analysis Function free online training to public sector and government employees Introduction to Git."
+  },
+  {
+    "objectID": "other-courses.html#modular-programming-in-python-and-r",
+    "href": "other-courses.html#modular-programming-in-python-and-r",
+    "title": "Other courses",
+    "section": "",
+    "text": "Analysis Function free online training to public sector and government employees Introduction to Git."
+  },
+  {
+    "objectID": "other-courses.html#introduction-to-reproducible-analytical-pipelines-rap",
+    "href": "other-courses.html#introduction-to-reproducible-analytical-pipelines-rap",
+    "title": "Other courses",
+    "section": "",
+    "text": "Analysis Function free online training to public sector and government employees Introduction to Git.\nNHS England Reproducible Analytical Pipelines (RAP) in a Quarto site for self learning."
+  },
+  {
+    "objectID": "other-courses.html#train-the-trainer",
+    "href": "other-courses.html#train-the-trainer",
+    "title": "Other courses",
+    "section": "",
+    "text": "Slides from a Train the Trainer course held by the Strategy Unit to support the Introduction to R and RStudio."
+  },
+  {
+    "objectID": "shiny-summary.html",
+    "href": "shiny-summary.html",
+    "title": "Shiny course",
+    "section": "",
+    "text": "Originally written and delivered to the NHS-R Community, this one day course covers the basics of building a Shiny app. Shiny has always been well known amongst R coders for “code first” dashboards that can be worked on in collaboration with others. Whilst this course doesn’t cover the use of Python in Shiny there it is now possible to use either language in Shiny.\nThe course will be run over two half days and is aimed at analysts who are familiar with R, perhaps having completed the Introduction to R and RStudio training through the NHS-R Community."
+  },
+  {
+    "objectID": "shiny-summary.html#detailed-programme",
+    "href": "shiny-summary.html#detailed-programme",
+    "title": "Shiny course",
+    "section": "Detailed Programme",
+    "text": "Detailed Programme\nThe course is intended for analysts with little to no prior experience of Shiny and covers the following:\n\nIntroduction to Shiny and setting out your code\nYour first application\nBuild a real application\nSimplifying reactivity with reactive expressions\nOptional:\n\nNSE in Shiny applications\nBookmarks\n\nDynamic UI\nWriting nice error messages for your Shiny applications\nDownloading files/ Rmarkdown\nCustom layout functions\n{shinydashboard}\nInteracting with a Shiny plot"
+  },
+  {
+    "objectID": "shiny-summary.html#prerequisites",
+    "href": "shiny-summary.html#prerequisites",
+    "title": "Shiny course",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
+  }
+]

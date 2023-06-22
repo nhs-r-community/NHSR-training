@@ -1,0 +1,20 @@
+# Strategy Unit information
+
+Course information specific to training delivered through the Strategy Unit
+
+# Trainers
+Your training will be led by:
+
+Zoë Turner, Senior Data Science, The Strategy Unit, [availability for booking](https://training-booking.notion.site/training-booking/Training-37293e2ce79d4513b6c09ee0fe8ecb4d).
+
+# Audience
+This course is free and available to ...
+
+# Equipment required
+The course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. 
+Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the [NHS-R Way book](https://nhsrway.nhsrcommunity.com/training.html).
+See course [pre-work](https://nhsrway.nhsrcommunity.com/training.html#prework-for-attendees) for further set up information.
+
+# Location
+Online – delivered via Zoom
+There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible.

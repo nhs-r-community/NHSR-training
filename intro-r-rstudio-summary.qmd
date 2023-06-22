@@ -1,0 +1,48 @@
+# Introduction to R and RStudio workshop summary
+
+Based on the hugely popular Introduction to R and R Studio course run by NHS-R Community volunteers, the one day course has been extended into 3 half days and covers the principles of data manipulation.
+The concepts covered in the course, and even some function names, will be familiar to those who use SQL and this course is aimed at those who have not used R/RStudio before or used only very little of it (perhaps running other people’s work for example). 
+As we work through the course we will be using and exploring Quarto to see how reports that mix text and code can be produced in R as well as be used as a way of managing analysis workflow.
+
+# Learning outcomes
+
+To introduce RStudio as an IDE (integrated development environment)
+Introduce familiar concepts of data manipulation but using R
+Practice these concepts and bring them together in a Quarto report
+
+# Detailed Programme
+
+## Session 1: Introduction and getting started
+
+* Course agenda and aims
+* Introducing and getting started with RStudio
+* Introducing what packages are in R
+* Projects
+* Opening Quarto
+
+## Session 2: Data Manipulation
+
+* Import a csv
+* Import a messy csv
+* Import a csv from the web
+* {dplyr} data wrangling with a selection of main functions
+* {dplyr} showcase more functions
+* Creating new objects
+* Introducing vectors
+* Joining data together
+* How to style your R code
+
+## Session 3: Categorical Variables
+
+* Finding help on functions using RStudio and the internet
+* Ongoing learning resources
+* Introducing chart visualisations using {ggplot2}
+* Using {datapasta}
+* Using {janitor} to remove blank rows/columns and tidy column names
+* Using {stringr} for cleaning with strings (for example % wildcard searches)
+
+# Pre-requisites
+No previous knowledge of R is expected.
+
+# Duration
+3 half days (3.5 hours each day)

@@ -1,11 +1,13 @@
 ---
-title: "NHSR-training"
+title: "About"
 ---
 
-This is a Quarto website.
+<a alt="NHS-R Community's logo" href='https://nhsrcommunity.com/'><img src='https://raw.githubusercontent.com/nhs-r-community/assets/main/logo/nhsr-logo.svg' align="center" height="150" /></a>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+This website contains course and training information.
+
+Instructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.
+
+Other (free) self led or archived courses are listed together. 
+This won't be a comprehensive list and recommendations/corrections are always welcome.

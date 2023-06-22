@@ -1,0 +1,46 @@
+# Other courses
+
+## Introduction to R and R Studio
+
+The first Introduction to R and RStudio slides [published through GitHub](https://nhs-r-community.github.io/intro_r/) with the [GitHub repository](https://github.com/nhs-r-community/intro_r).
+
+Analysis Function free online training to public sector and government employees [Introduction to Git](https://analysisfunction.civilservice.gov.uk/training/introduction-to-r/).
+
+NHS England [R Programming Language](https://nhsengland.github.io/nhs-r-reporting/tutorials/r-language.html) in a Quarto site for self learning.
+
+## Introduction to RMarkdown
+
+[A workshop](https://github.com/nhs-r-community/intro_rmd) from the NHS-R Conference in 2021 based on the scripted way of delivering courses.
+
+A slide based [course on RMarkdown](https://github.com/nhs-r-community/rmarkdown_intro) which was based on the conference workshop.
+
+NHS England [Quarto and RMarkdown](NHS England [GitHub training](https://nhsengland.github.io/nhs-r-reporting/tutorials/github.html) in a Quarto site for self learning.
+
+## Git training
+
+[A workshop](https://github.com/nhs-r-community/git_training) from the NHS-R Conference in 2022 based on the scripted way of delivering courses and using the Terminal.
+
+Not NHS-R but from the [NHS North Central London ICB Analytics Team](https://github.com/ncl-icb-analytics) an [Introduction to Git and GitHub](https://ncl-icb-analytics.github.io/intro_to_git/intro_slides.html#1) on the command line using a slide format.
+
+NHS England [GitHub training](https://nhsengland.github.io/nhs-r-reporting/tutorials/github.html) in a Quarto site for self learning.
+
+Analysis Function free online training to public sector and government employees [Introduction to Git](https://analysisfunction.civilservice.gov.uk/training/introduction-to-git/).
+
+## Introduction to Python
+
+Analysis Function free online training to public sector and government employees [Introduction to Git](https://analysisfunction.civilservice.gov.uk/training/introduction-to-python/).
+
+## Modular programming in Python and R
+
+Analysis Function free online training to public sector and government employees [Introduction to Git](https://analysisfunction.civilservice.gov.uk/training/modular-programming-in-python-and-r/).
+
+## Introduction to Reproducible Analytical Pipelines (RAP)
+
+Analysis Function free online training to public sector and government employees [Introduction to Git](https://analysisfunction.civilservice.gov.uk/training/introduction-to-reproducible-analytical-pipelines-rap/).
+
+NHS England [Reproducible Analytical Pipelines (RAP)](https://nhsengland.github.io/nhs-r-reporting/tutorials/rap.html) in a Quarto site for self learning.
+
+
+## Train the Trainer
+
+[Slides](https://github.com/nhs-r-community/train_the_trainer) from a Train the Trainer course held by the Strategy Unit to support the Introduction to R and RStudio.
