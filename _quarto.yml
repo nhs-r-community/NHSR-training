@@ -2,14 +2,6 @@ project:
   type: website
   title: "NHSR Training"
   execute-dir: project
-  output-dir: docs
-  render:
-      - index.qmd
-      - intro-r-rstudio-summary.qmd
-      - intro-git-rstudio-summary.qmd
-      - shiny-summary.qmd
-      - strategy-unit.qmd
-      - other-courses.qmd
 
 website:
   title: "NHSR-training"
