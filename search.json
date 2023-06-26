@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "other-courses.html",
-    "href": "other-courses.html",
-    "title": "Other courses",
+    "objectID": "intro-git-rstudio-summary.html",
+    "href": "intro-git-rstudio-summary.html",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
     "section": "",
-    "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
+    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "href": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 1: Introduction and getting started",
+    "text": "Session 1: Introduction and getting started\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-2",
+    "href": "intro-git-rstudio-summary.html#session-2",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 2:",
+    "text": "Session 2:\n\nRepeat first workflow and create a merge conflict!\nHow to resolve a merge conflict"
+  },
+  {
+    "objectID": "strategy-unit.html",
+    "href": "strategy-unit.html",
+    "title": "Strategy Unit information",
+    "section": "",
+    "text": "Strategy Unit information\nCourse information specific to training delivered through the Strategy Unit\n\n\nTrainers\nYour training will be led by:\nZoë Turner, Senior Data Science, The Strategy Unit, availability for booking.\n\n\nAudience\nThis course is free and available to …\n\n\nEquipment required\nThe course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the NHS-R Way book. See course pre-work for further set up information.\n\n\nLocation\nOnline – delivered via Zoom There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible."
   },
   {
     "objectID": "shiny-summary.html",
@@ -26,6 +47,13 @@
     "title": "Shiny course",
     "section": "Prerequisites",
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
   },
   {
     "objectID": "intro-r-rstudio-summary.html",
@@ -56,38 +84,10 @@
     "text": "Session 3: Categorical Variables\n\nFinding help on functions using RStudio and the internet\nOngoing learning resources\nIntroducing chart visualisations using {ggplot2}\nUsing {datapasta}\nUsing {janitor} to remove blank rows/columns and tidy column names\nUsing {stringr} for cleaning with strings (for example % wildcard searches)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
+    "objectID": "other-courses.html",
+    "href": "other-courses.html",
+    "title": "Other courses",
     "section": "",
-    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html",
-    "href": "intro-git-rstudio-summary.html",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "",
-    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
-    "href": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 1: Introduction and getting started",
-    "text": "Session 1: Introduction and getting started\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html#session-2",
-    "href": "intro-git-rstudio-summary.html#session-2",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 2:",
-    "text": "Session 2:\n\nRepeat first workflow and create a merge conflict!\nHow to resolve a merge conflict"
-  },
-  {
-    "objectID": "strategy-unit.html",
-    "href": "strategy-unit.html",
-    "title": "Strategy Unit information",
-    "section": "",
-    "text": "Strategy Unit information\nCourse information specific to training delivered through the Strategy Unit\n\n\nTrainers\nYour training will be led by:\nZoë Turner, Senior Data Science, The Strategy Unit, availability for booking.\n\n\nAudience\nThis course is free and available to …\n\n\nEquipment required\nThe course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the NHS-R Way book. See course pre-work for further set up information.\n\n\nLocation\nOnline – delivered via Zoom There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible."
+    "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
   }
 ]
