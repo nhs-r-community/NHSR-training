@@ -1,8 +1,8 @@
-# Shiny course
+# Shiny basics course
 
 Originally written and delivered to the NHS-R Community, this one day course covers the basics of building a Shiny app.
 Shiny has always been well known amongst R coders for "code first" dashboards that can be worked on in collaboration with others.
-Whilst this course doesn't cover the use of Python in Shiny there it is now possible to use either language in Shiny.
+Whilst this course doesn't cover the use of [Python in Shiny](https://shiny.posit.co/py/) there it is now possible to use either language in Shiny.
 
 The course will be run over two half days and is aimed at analysts who are familiar with R, perhaps having completed the Introduction to R and RStudio training through the NHS-R Community.
 
