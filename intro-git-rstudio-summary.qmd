@@ -12,7 +12,7 @@ This course will be run over two half days and is aimed at analysts who are fami
 
 # Detailed Programme
 
-## Session 1: Introduction and getting started
+## Session 1
 - What is Git and GitHub and why these are important to data analysis
 - Setting up for Git and GitHub
 - Explaining Git terminology
@@ -30,9 +30,11 @@ This course will be run over two half days and is aimed at analysts who are fami
 - Repeat first workflow and create a merge conflict!
 - How to resolve a merge conflict 
 
-
 # Pre-requisites
 Some previous knowledge of R and familiarity with RStudio is expected.
 
 # Duration
 2 half days (3.5 hours each day)
+
+# Course materials
+[Slides](https://github.com/nhs-r-community/intro-git-github#introduction-to-git-and-github) are published through GitHub.

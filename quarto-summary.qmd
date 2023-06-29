@@ -1,0 +1,38 @@
+# Introduction to Quarto course
+
+Quarto was released in 2022 as the next generation for RMarkdown for everyone as it can be used equally by R users as well as Python which renders plain text formats (quarto .qmd, RMarkdown .rmd, markdown .md) or mixed formats (.ipynb/Jupyter notebook) into static PDF/Word/HTML reports, books, websites, presentations and more.
+
+The course will be run over two half days and is aimed at analysts who are familiar with R and RStudio, perhaps having completed the Introduction to R and RStudio training through the NHS-R Community.
+The format of the course follows the outline that was originally created for [RMarkdown](https://github.com/nhs-r-community/rmarkdown_intro/tree/main) and can be used as a reference to work between the two reporting tools.
+
+# Learning outcomes
+
+- Understand the benefits and uses of Quarto through the Terminal and the package {quarto}
+
+## Detailed Programme
+
+## Session 1:
+- Getting set up 
+- What's inside?  
+- Text 
+- Images 
+- Code chunks  
+
+## Session 2: 
+- Inline code 
+- Tabs 
+- Output Formats 
+- Parameters
+- Command Line
+- Loop reports 
+- Extras
+
+## Prerequisites
+
+The material is pitched at analysts with at least beginner level of R. 
+
+# Duration
+2 half days (3.5 hours each day)
+
+# Course materials
+Slides will be published through GitHub.
