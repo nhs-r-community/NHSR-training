@@ -14,11 +14,11 @@
     "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
   },
   {
-    "objectID": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
-    "href": "intro-git-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "objectID": "intro-git-rstudio-summary.html#session-1",
+    "href": "intro-git-rstudio-summary.html#session-1",
     "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 1: Introduction and getting started",
-    "text": "Session 1: Introduction and getting started\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
+    "section": "Session 1",
+    "text": "Session 1\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
   },
   {
     "objectID": "intro-git-rstudio-summary.html#session-2",
@@ -84,23 +84,58 @@
     "text": "NHS England Synthetic A&E dataset. Issues with this dataset are that the data is grouped for categories like ages and arrival hour, it’s one data set that doesn’t need to be joined, is not presented in a way to find where people are re-attenders and the data set is large (1 Jan 2018 to 31 Mar 2018 is over 3 million rows). Some data is absent such as ethnicity.\nsynthpop generating synthetic versions of sensitive microdata for statistical disclosure control used in the https://synthpop.shinyapps.io/synthpop/ has sex, age, marital status, employment and smoking (yes/no)."
   },
   {
+    "objectID": "quarto-summary.html",
+    "href": "quarto-summary.html",
+    "title": "Introduction to Quarto course",
+    "section": "",
+    "text": "Quarto was released in 2022 as the next generation for RMarkdown for everyone as it can be used equally by R users as well as Python which renders plain text formats (quarto .qmd, RMarkdown .rmd, markdown .md) or mixed formats (.ipynb/Jupyter notebook) into static PDF/Word/HTML reports, books, websites, presentations and more.\nThe course will be run over two half days and is aimed at analysts who are familiar with R and RStudio, perhaps having completed the Introduction to R and RStudio training through the NHS-R Community. The format of the course follows the outline that was originally created for RMarkdown and can be used as a reference to work between the two reporting tools."
+  },
+  {
+    "objectID": "quarto-summary.html#detailed-programme",
+    "href": "quarto-summary.html#detailed-programme",
+    "title": "Introduction to Quarto course",
+    "section": "Detailed Programme",
+    "text": "Detailed Programme"
+  },
+  {
+    "objectID": "quarto-summary.html#session-1",
+    "href": "quarto-summary.html#session-1",
+    "title": "Introduction to Quarto course",
+    "section": "Session 1:",
+    "text": "Session 1:\n\nGetting set up\nWhat’s inside?\n\nText\nImages\nCode chunks"
+  },
+  {
+    "objectID": "quarto-summary.html#session-2",
+    "href": "quarto-summary.html#session-2",
+    "title": "Introduction to Quarto course",
+    "section": "Session 2:",
+    "text": "Session 2:\n\nInline code\nTabs\nOutput Formats\nParameters\nCommand Line\nLoop reports\nExtras"
+  },
+  {
+    "objectID": "quarto-summary.html#prerequisites",
+    "href": "quarto-summary.html#prerequisites",
+    "title": "Introduction to Quarto course",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
+  },
+  {
     "objectID": "shiny-summary.html",
     "href": "shiny-summary.html",
-    "title": "Shiny course",
+    "title": "Shiny basics course",
     "section": "",
     "text": "Originally written and delivered to the NHS-R Community, this one day course covers the basics of building a Shiny app. Shiny has always been well known amongst R coders for “code first” dashboards that can be worked on in collaboration with others. Whilst this course doesn’t cover the use of Python in Shiny there it is now possible to use either language in Shiny.\nThe course will be run over two half days and is aimed at analysts who are familiar with R, perhaps having completed the Introduction to R and RStudio training through the NHS-R Community."
   },
   {
     "objectID": "shiny-summary.html#detailed-programme",
     "href": "shiny-summary.html#detailed-programme",
-    "title": "Shiny course",
+    "title": "Shiny basics course",
     "section": "Detailed Programme",
     "text": "Detailed Programme\nThe course is intended for analysts with little to no prior experience of Shiny and covers the following:\n\nIntroduction to Shiny and setting out your code\nYour first application\nBuild a real application\nSimplifying reactivity with reactive expressions\nOptional:\n\nNSE in Shiny applications\nBookmarks\n\nDynamic UI\nWriting nice error messages for your Shiny applications\nDownloading files/ Rmarkdown\nCustom layout functions\n{shinydashboard}\nInteracting with a Shiny plot"
   },
   {
     "objectID": "shiny-summary.html#prerequisites",
     "href": "shiny-summary.html#prerequisites",
-    "title": "Shiny course",
+    "title": "Shiny basics course",
     "section": "Prerequisites",
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
   },

@@ -12,7 +12,7 @@ This course will be run over two half days and is aimed at analysts who are fami
 
 # Detailed Programme
 
-## Session 1: Introduction and getting started
+## Session 1
 - What is Git and GitHub and why these are important to data analysis
 - Setting up for Git and GitHub
 - Explaining Git terminology
@@ -29,7 +29,6 @@ This course will be run over two half days and is aimed at analysts who are fami
 ## Session 2: 
 - Repeat first workflow and create a merge conflict!
 - How to resolve a merge conflict 
-
 
 # Pre-requisites
 Some previous knowledge of R and familiarity with RStudio is expected.
