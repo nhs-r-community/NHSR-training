@@ -63,6 +63,13 @@
     "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
   },
   {
+    "objectID": "planning/quarto.html",
+    "href": "planning/quarto.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Rendering through the terminal and via RStudio R package {quarto} Different things to update Quarto is part of RStudio IDE, {quarto} is used in the IDE Can be other IDEs like Jupyter Notebooks or VS Code.\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/rendering\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/what-to-do-with-my-existing-.rmd-or-.ipynb\nRMarkdown is still maintained but new features will be built into Quarto\ncode-fold: yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/text-formatting"
+  },
+  {
     "objectID": "planning/synthetic-data-planning.html",
     "href": "planning/synthetic-data-planning.html",
     "title": "Dummy data",
