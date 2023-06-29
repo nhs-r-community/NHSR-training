@@ -38,3 +38,6 @@ The material is pitched at analysts with at least beginner level of R.
 
 # Duration
 2 half days (3.5 hours each day)
+
+# Course materials
+[Materials](https://github.com/nhs-r-community/shiny-training#shiny-training-) are available through GitHub.
