@@ -48,4 +48,4 @@ No previous knowledge of R is expected.
 3 half days (3.5 hours each day)
 
 # Course materials
-[Slides](https://github.com/nhs-r-community/intro-r-rstudio#introduction-to-r-and-r-studio) are published through GitHub.
+[Slides](https://intro-r-rstudio.nhsrcommunity.com/) are published through GitHub.

@@ -37,4 +37,4 @@ Some previous knowledge of R and familiarity with RStudio is expected.
 2 half days (3.5 hours each day)
 
 # Course materials
-[Slides](https://github.com/nhs-r-community/intro-git-github#introduction-to-git-and-github) are published through GitHub.
+[Slides](https://intro-git-github.nhsrcommunity.com/) are published through GitHub).
