@@ -2,8 +2,6 @@ project:
   type: website
   title: "NHSR Training"
   execute-dir: project
-  resources:
-    - CNAME
 
 website:
   title: "NHSR-training"
@@ -31,6 +29,7 @@ website:
       - shiny-summary.qmd
       - strategy-unit.qmd
       - other-courses.qmd
+      - test.qmd
   page-navigation: true
 
 
