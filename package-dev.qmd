@@ -1,0 +1,40 @@
+# R Forwards Package Development course
+
+The R Forwards 1 day course modularlised into 1 hour sessions to be held over 4 days in R package development and includes connecting to GitHub.
+
+The course is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+# Learning outcomes
+
+- explain the rationale for writing packages
+- find and explore their own package library/libraries
+- describe the key components of a package
+- describe the different states a package can be in
+- outline the development of a package using devtools
+
+Source: R Forwards [slide](https://forwards.github.io/workshops/package-dev-modules/slides/01-packages-in-a-nutshell/packages-in-a-nutshell.html#6)
+
+- set up GitHub and share your code privately and publicly with it 
+
+## Detailed Programme
+
+- Introducing packages and the course
+- Setting up your system (Windows only for NHS/public sector courses)
+- Your first package
+- Package documentation
+
+## Prerequisites
+
+Some experience of coding in R.
+It will also help to have previously installed and loaded packages.
+Some experience of using Git and particularly GitHub is helpful but not essential.
+
+# Duration
+4 one-hour sessions spread over separate days.
+
+# Course materials
+
+* [Packages in a nutshell](http://bit.ly/pkg-dev-1)
+* [Setting up your system](http://bit.ly/pkg-dev-2)
+* [Your first package](http://bit.ly/pkg-dev-3)
+* [Package documentation](http://bit.ly/pkg-dev-4)
