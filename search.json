@@ -63,11 +63,11 @@
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Testing",
     "section": "",
-    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
+    "text": "Testing"
   },
   {
     "objectID": "quarto-summary.html",
@@ -103,6 +103,13 @@
     "title": "Introduction to Quarto course",
     "section": "Prerequisites",
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
   },
   {
     "objectID": "intro-r-rstudio-summary.html",
