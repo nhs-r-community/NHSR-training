@@ -1,31 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
+    "objectID": "other-courses.html",
+    "href": "other-courses.html",
+    "title": "Other courses",
     "section": "",
-    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
+    "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
   },
   {
-    "objectID": "intro-git-rstudio-summary.html",
-    "href": "intro-git-rstudio-summary.html",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "objectID": "strategy-unit.html",
+    "href": "strategy-unit.html",
+    "title": "Strategy Unit information",
     "section": "",
-    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html#session-1",
-    "href": "intro-git-rstudio-summary.html#session-1",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 1",
-    "text": "Session 1\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html#session-2",
-    "href": "intro-git-rstudio-summary.html#session-2",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 2:",
-    "text": "Session 2:\n\nRepeat first workflow and create a merge conflict!\nHow to resolve a merge conflict"
+    "text": "Strategy Unit information\nCourse information specific to training delivered through the Strategy Unit\n\n\nTrainers\nYour training will be led by:\nZoë Turner, Senior Data Science, The Strategy Unit, availability for booking.\n\n\nAudience\nThis course is free and available to …\n\n\nEquipment required\nThe course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the NHS-R Way book. See course pre-work for further set up information.\n\n\nLocation\nOnline – delivered via Zoom There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible."
   },
   {
     "objectID": "intro-r-rstudio-summary.html",
@@ -54,34 +40,6 @@
     "title": "Introduction to R and RStudio workshop summary",
     "section": "Session 3: Categorical Variables",
     "text": "Session 3: Categorical Variables\n\nFinding help on functions using RStudio and the internet\nOngoing learning resources\nIntroducing chart visualisations using {ggplot2}\nUsing {datapasta}\nUsing {janitor} to remove blank rows/columns and tidy column names\nUsing {stringr} for cleaning with strings (for example % wildcard searches)"
-  },
-  {
-    "objectID": "other-courses.html",
-    "href": "other-courses.html",
-    "title": "Other courses",
-    "section": "",
-    "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
-  },
-  {
-    "objectID": "planning/quarto.html",
-    "href": "planning/quarto.html",
-    "title": "Untitled",
-    "section": "",
-    "text": "Rendering through the terminal and via RStudio R package {quarto} Different things to update Quarto is part of RStudio IDE, {quarto} is used in the IDE Can be other IDEs like Jupyter Notebooks or VS Code.\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/rendering\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/what-to-do-with-my-existing-.rmd-or-.ipynb\nRMarkdown is still maintained but new features will be built into Quarto\ncode-fold: yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/text-formatting\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/yaml-is-sensitive https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/why-yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/rendering https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/links\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/divs-and-spans\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/callout-blocks\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/figures-w-code\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/subfigures-fenced-div-class"
-  },
-  {
-    "objectID": "planning/synthetic-data-planning.html",
-    "href": "planning/synthetic-data-planning.html",
-    "title": "Dummy data",
-    "section": "",
-    "text": "NHS England Synthetic A&E dataset. Issues with this dataset are that the data is grouped for categories like ages and arrival hour, it’s one data set that doesn’t need to be joined, is not presented in a way to find where people are re-attenders and the data set is large (1 Jan 2018 to 31 Mar 2018 is over 3 million rows). Some data is absent such as ethnicity.\nsynthpop generating synthetic versions of sensitive microdata for statistical disclosure control used in the https://synthpop.shinyapps.io/synthpop/ has sex, age, marital status, employment and smoking (yes/no)."
-  },
-  {
-    "objectID": "planning/synthetic-data-planning.html#background",
-    "href": "planning/synthetic-data-planning.html#background",
-    "title": "Dummy data",
-    "section": "",
-    "text": "NHS England Synthetic A&E dataset. Issues with this dataset are that the data is grouped for categories like ages and arrival hour, it’s one data set that doesn’t need to be joined, is not presented in a way to find where people are re-attenders and the data set is large (1 Jan 2018 to 31 Mar 2018 is over 3 million rows). Some data is absent such as ethnicity.\nsynthpop generating synthetic versions of sensitive microdata for statistical disclosure control used in the https://synthpop.shinyapps.io/synthpop/ has sex, age, marital status, employment and smoking (yes/no)."
   },
   {
     "objectID": "quarto-summary.html",
@@ -119,6 +77,13 @@
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
+  },
+  {
     "objectID": "shiny-summary.html",
     "href": "shiny-summary.html",
     "title": "Shiny basics course",
@@ -140,10 +105,24 @@
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
   },
   {
-    "objectID": "strategy-unit.html",
-    "href": "strategy-unit.html",
-    "title": "Strategy Unit information",
+    "objectID": "intro-git-rstudio-summary.html",
+    "href": "intro-git-rstudio-summary.html",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
     "section": "",
-    "text": "Strategy Unit information\nCourse information specific to training delivered through the Strategy Unit\n\n\nTrainers\nYour training will be led by:\nZoë Turner, Senior Data Science, The Strategy Unit, availability for booking.\n\n\nAudience\nThis course is free and available to …\n\n\nEquipment required\nThe course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the NHS-R Way book. See course pre-work for further set up information.\n\n\nLocation\nOnline – delivered via Zoom There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible."
+    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-1",
+    "href": "intro-git-rstudio-summary.html#session-1",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 1",
+    "text": "Session 1\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-2",
+    "href": "intro-git-rstudio-summary.html#session-2",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 2:",
+    "text": "Session 2:\n\nRepeat first workflow and create a merge conflict!\nHow to resolve a merge conflict"
   }
 ]
