@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>NHSR-training - Untitled</title>
+<title>NHSR-training – package-dev</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./shiny-summary.html" rel="next">
+<link href="./quarto-summary.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">NHSR-training</span>
     </a>
   </div>
@@ -82,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -103,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Untitled</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./package-dev.html">R Forwards Package Development course</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -125,43 +127,49 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../intro-r-rstudio-summary.html" class="sidebar-item-text sidebar-link">
+  <a href="./intro-r-rstudio-summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction to R and RStudio workshop summary</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../intro-git-rstudio-summary.html" class="sidebar-item-text sidebar-link">
+  <a href="./intro-git-rstudio-summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction to Git and GitHub (RStudio) workshop summary</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../quarto-summary.html" class="sidebar-item-text sidebar-link">
+  <a href="./quarto-summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction to Quarto course</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../shiny-summary.html" class="sidebar-item-text sidebar-link">
+  <a href="./package-dev.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">R Forwards Package Development course</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./shiny-summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Shiny basics course</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../strategy-unit.html" class="sidebar-item-text sidebar-link">
+  <a href="./strategy-unit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Strategy Unit information</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../other-courses.html" class="sidebar-item-text sidebar-link">
+  <a href="./other-courses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Other courses</span></a>
   </div>
 </li>
@@ -171,40 +179,73 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#r-forwards-package-development-course" id="toc-r-forwards-package-development-course" class="nav-link active" data-scroll-target="#r-forwards-package-development-course">R Forwards Package Development course</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning outcomes</a>
+  <ul class="collapse">
+  <li><a href="#detailed-programme" id="toc-detailed-programme" class="nav-link" data-scroll-target="#detailed-programme">Detailed Programme</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  </ul></li>
+  <li><a href="#duration" id="toc-duration" class="nav-link" data-scroll-target="#duration">Duration</a></li>
+  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course materials</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nhs-r-community/NHSR-training/edit/main/package-dev.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nhs-r-community/NHSR-training/issues/new/choose" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Untitled</h1>
-</div>
 
 
+<section id="r-forwards-package-development-course" class="level1">
+<h1>R Forwards Package Development course</h1>
+<p>The R Forwards 1 day course modularlised into 1 hour sessions to be held over 4 days in R package development and includes connecting to GitHub.</p>
+<p>The course is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+</section>
+<section id="learning-outcomes" class="level1">
+<h1>Learning outcomes</h1>
+<ul>
+<li>explain the rationale for writing packages</li>
+<li>find and explore their own package library/libraries</li>
+<li>describe the key components of a package</li>
+<li>describe the different states a package can be in</li>
+<li>outline the development of a package using devtools</li>
+</ul>
+<p>Source: R Forwards <a href="https://forwards.github.io/workshops/package-dev-modules/slides/01-packages-in-a-nutshell/packages-in-a-nutshell.html#6">slide</a></p>
+<ul>
+<li>set up GitHub and share your code privately and publicly with it</li>
+</ul>
+<section id="detailed-programme" class="level2">
+<h2 class="anchored" data-anchor-id="detailed-programme">Detailed Programme</h2>
+<ul>
+<li>Introducing packages and the course</li>
+<li>Setting up your system (Windows only for NHS/public sector courses)</li>
+<li>Your first package</li>
+<li>Package documentation</li>
+</ul>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Some experience of coding in R. It will also help to have previously installed and loaded packages. Some experience of using Git and particularly GitHub is helpful but not essential.</p>
+</section>
+</section>
+<section id="duration" class="level1">
+<h1>Duration</h1>
+<p>4 one-hour sessions spread over separate days.</p>
+</section>
+<section id="course-materials" class="level1">
+<h1>Course materials</h1>
+<ul>
+<li><a href="http://bit.ly/pkg-dev-1">Packages in a nutshell</a></li>
+<li><a href="http://bit.ly/pkg-dev-2">Setting up your system</a></li>
+<li><a href="http://bit.ly/pkg-dev-3">Your first package</a></li>
+<li><a href="http://bit.ly/pkg-dev-4">Package documentation</a></li>
+</ul>
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>Rendering through the terminal and via RStudio R package {quarto} Different things to update Quarto is part of RStudio IDE, {quarto} is used in the IDE Can be other IDEs like Jupyter Notebooks or VS Code.</p>
-<p>https://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/rendering</p>
-<p>https://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/what-to-do-with-my-existing-.rmd-or-.ipynb</p>
-<p>RMarkdown is still maintained but new features will be built into Quarto</p>
-<p>code-fold: yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/text-formatting</p>
-<p>https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/yaml-is-sensitive https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/why-yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/rendering https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/links</p>
-<p>https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/divs-and-spans</p>
-<p>https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/callout-blocks</p>
-<p>https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/figures-w-code</p>
-<p>https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/subfigures-fenced-div-class</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -440,8 +481,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./quarto-summary.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction to Quarto course</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./shiny-summary.html" class="pagination-link">
+        <span class="nav-page-text">Shiny basics course</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nhs-r-community/NHSR-training/edit/main/planning/quarto.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nhs-r-community/NHSR-training/issues/new/choose" class="toc-action">Report an issue</a></p></div></div></div></div></footer></body></html>
+</body></html>
