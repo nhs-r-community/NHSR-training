@@ -25,6 +25,7 @@ website:
       - intro-r-rstudio-summary.qmd
       - intro-git-rstudio-summary.qmd
       - quarto-summary.qmd
+      - package-dev.qmd
       - shiny-summary.qmd
       - strategy-unit.qmd
       - other-courses.qmd
