@@ -2,38 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/nhs-r-community/test.html</loc>
-    <lastmod>2023-11-08T16:11:16.685Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/nhs-r-community/intro-git-rstudio-summary.html</loc>
-    <lastmod>2023-11-08T16:11:16.217Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/nhs-r-community/package-dev.html</loc>
-    <lastmod>2023-11-08T16:11:15.645Z</lastmod>
+    <lastmod>2023-11-08T16:13:17.872Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/nhs-r-community/shiny-summary.html</loc>
-    <lastmod>2023-11-08T16:11:15.125Z</lastmod>
+    <lastmod>2023-11-08T16:13:16.803Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/other-courses.html</loc>
-    <lastmod>2023-11-08T16:11:14.281Z</lastmod>
+    <loc>https://github.com/nhs-r-community/planning/synthetic-data-planning.html</loc>
+    <lastmod>2023-11-08T16:13:15.480Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/quarto-summary.html</loc>
-    <lastmod>2023-11-08T16:11:14.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/nhs-r-community/index.html</loc>
-    <lastmod>2023-11-08T16:11:15.369Z</lastmod>
+    <loc>https://github.com/nhs-r-community/package-dev.html</loc>
+    <lastmod>2023-11-08T16:13:14.173Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/nhs-r-community/intro-r-rstudio-summary.html</loc>
-    <lastmod>2023-11-08T16:11:15.929Z</lastmod>
+    <lastmod>2023-11-08T16:13:12.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/index.html</loc>
+    <lastmod>2023-11-08T16:13:11.691Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/intro-git-rstudio-summary.html</loc>
+    <lastmod>2023-11-08T16:13:12.193Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/other-courses.html</loc>
+    <lastmod>2023-11-08T16:13:13.537Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/planning/quarto.html</loc>
+    <lastmod>2023-11-08T16:13:14.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/quarto-summary.html</loc>
+    <lastmod>2023-11-08T16:13:16.088Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/nhs-r-community/strategy-unit.html</loc>
-    <lastmod>2023-11-08T16:11:16.461Z</lastmod>
+    <lastmod>2023-11-08T16:13:17.322Z</lastmod>
   </url>
 </urlset>
