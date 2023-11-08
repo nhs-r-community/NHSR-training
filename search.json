@@ -1,45 +1,10 @@
 [
   {
-    "objectID": "package-dev.html",
-    "href": "package-dev.html",
-    "title": "R Forwards Package Development course",
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Testing",
     "section": "",
-    "text": "The R Forwards 1 day course modularlised into 1 hour sessions to be held over 4 days in R package development and includes connecting to GitHub.\nThe course is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
-  },
-  {
-    "objectID": "package-dev.html#detailed-programme",
-    "href": "package-dev.html#detailed-programme",
-    "title": "R Forwards Package Development course",
-    "section": "Detailed Programme",
-    "text": "Detailed Programme\n\nIntroducing packages and the course\nSetting up your system (Windows only for NHS/public sector courses)\nYour first package\nPackage documentation"
-  },
-  {
-    "objectID": "package-dev.html#prerequisites",
-    "href": "package-dev.html#prerequisites",
-    "title": "R Forwards Package Development course",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nSome experience of coding in R. It will also help to have previously installed and loaded packages. Some experience of using Git and particularly GitHub is helpful but not essential."
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html",
-    "href": "intro-git-rstudio-summary.html",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "",
-    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html#session-1",
-    "href": "intro-git-rstudio-summary.html#session-1",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 1",
-    "text": "Session 1\n\nWhat is Git and GitHub and why these are important to data analysis\nSetting up for Git and GitHub\nExplaining Git terminology\nTake existing R project to GitHub\nFirst workflow:\n\nstart a new project (naming branches)\ntaking snapshots (creating commits)\nmaking it public on GitHub (pushing)\n\nSecond workflow:\n\nfinding a branch to continue working from\nPausing work for later\n\nOpen pull requests to the main branch"
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html#session-2",
-    "href": "intro-git-rstudio-summary.html#session-2",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 2:",
-    "text": "Session 2:\n\nRepeat first workflow and create a merge conflict!\nHow to resolve a merge conflict"
+    "text": "Testing"
   },
   {
     "objectID": "shiny-summary.html",
@@ -63,11 +28,109 @@
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
   },
   {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Testing",
+    "objectID": "planning/synthetic-data-planning.html",
+    "href": "planning/synthetic-data-planning.html",
+    "title": "Dummy data",
     "section": "",
-    "text": "Testing"
+    "text": "NHS England Synthetic A&E dataset. Issues with this dataset are that the data is grouped for categories like ages and arrival hour, it’s one data set that doesn’t need to be joined, is not presented in a way to find where people are re-attenders and the data set is large (1 Jan 2018 to 31 Mar 2018 is over 3 million rows). Some data is absent such as ethnicity.\nsynthpop generating synthetic versions of sensitive microdata for statistical disclosure control used in the https://synthpop.shinyapps.io/synthpop/ has sex, age, marital status, employment and smoking (yes/no)."
+  },
+  {
+    "objectID": "planning/synthetic-data-planning.html#background",
+    "href": "planning/synthetic-data-planning.html#background",
+    "title": "Dummy data",
+    "section": "",
+    "text": "NHS England Synthetic A&E dataset. Issues with this dataset are that the data is grouped for categories like ages and arrival hour, it’s one data set that doesn’t need to be joined, is not presented in a way to find where people are re-attenders and the data set is large (1 Jan 2018 to 31 Mar 2018 is over 3 million rows). Some data is absent such as ethnicity.\nsynthpop generating synthetic versions of sensitive microdata for statistical disclosure control used in the https://synthpop.shinyapps.io/synthpop/ has sex, age, marital status, employment and smoking (yes/no)."
+  },
+  {
+    "objectID": "package-dev.html",
+    "href": "package-dev.html",
+    "title": "R Forwards Package Development course",
+    "section": "",
+    "text": "The R Forwards 1 day course modularlised into 1 hour sessions to be held over 4 days in R package development and includes connecting to GitHub.\nThe course is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "package-dev.html#detailed-programme",
+    "href": "package-dev.html#detailed-programme",
+    "title": "R Forwards Package Development course",
+    "section": "Detailed Programme",
+    "text": "Detailed Programme\n\nIntroducing packages and the course\nSetting up your system (Windows only for NHS/public sector courses)\nYour first package\nPackage documentation"
+  },
+  {
+    "objectID": "package-dev.html#prerequisites",
+    "href": "package-dev.html#prerequisites",
+    "title": "R Forwards Package Development course",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nSome experience of coding in R. It will also help to have previously installed and loaded packages. Some experience of using Git and particularly GitHub is helpful but not essential."
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html",
+    "href": "intro-r-rstudio-summary.html",
+    "title": "Introduction to R and RStudio workshop summary",
+    "section": "",
+    "text": "Based on the hugely popular Introduction to R and R Studio course run by NHS-R Community volunteers, the one day course has been extended into 3 half days and covers the principles of data manipulation. The concepts covered in the course, and even some function names, will be familiar to those who use SQL and this course is aimed at those who have not used R/RStudio before or used only very little of it (perhaps running other people’s work for example). As we work through the course we will be using and exploring Quarto to see how reports that mix text and code can be produced in R as well as be used as a way of managing analysis workflow."
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "href": "intro-r-rstudio-summary.html#session-1-introduction-and-getting-started",
+    "title": "Introduction to R and RStudio workshop summary",
+    "section": "Session 1: Introduction and getting started",
+    "text": "Session 1: Introduction and getting started\n\nCourse agenda and aims\nIntroducing and getting started with RStudio\nIntroducing what packages are in R\nProjects\nOpening Quarto"
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-2-data-manipulation",
+    "href": "intro-r-rstudio-summary.html#session-2-data-manipulation",
+    "title": "Introduction to R and RStudio workshop summary",
+    "section": "Session 2: Data Manipulation",
+    "text": "Session 2: Data Manipulation\n\nImport a csv\nImport a messy csv\nImport a csv from the web\n{dplyr} data wrangling with a selection of main functions\n{dplyr} showcase more functions\nCreating new objects\nIntroducing vectors\nJoining data together\nHow to style your R code"
+  },
+  {
+    "objectID": "intro-r-rstudio-summary.html#session-3-categorical-variables",
+    "href": "intro-r-rstudio-summary.html#session-3-categorical-variables",
+    "title": "Introduction to R and RStudio workshop summary",
+    "section": "Session 3: Categorical Variables",
+    "text": "Session 3: Categorical Variables\n\nFinding help on functions using RStudio and the internet\nOngoing learning resources\nIntroducing chart visualisations using {ggplot2}\nUsing {datapasta}\nUsing {janitor} to remove blank rows/columns and tidy column names\nUsing {stringr} for cleaning with strings (for example % wildcard searches)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html",
+    "href": "intro-git-rstudio-summary.html",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "",
+    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-1",
+    "href": "intro-git-rstudio-summary.html#session-1",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 1",
+    "text": "Session 1\n\nPrework - Get set up on a computer\nIntroduction - What is version control?\nVersion Control - What is Git/GitHub and how they relate to RStudio along with the ups and downs of Git\nWorkflow - Brief introduction to the Git and GitHub terminology\nWorkflow with {usethis} and {gert} - start work and making a commit"
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-2",
+    "href": "intro-git-rstudio-summary.html#session-2",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 2:",
+    "text": "Session 2:\n\nPull Requests (PRs) - making pull request, pausing, resuming and finishing\nMerge conflict! - repeat steps from previous session and create a conflict merge\nCommit to main (and undo last commit!) - how committing is possible to the main and undo last commits\nUndo last merge - undoing a merge (reverting a pull request)\nExisting repositories - Getting copies of existing repositories"
+  },
+  {
+    "objectID": "other-courses.html",
+    "href": "other-courses.html",
+    "title": "Other courses",
+    "section": "",
+    "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
+  },
+  {
+    "objectID": "planning/quarto.html",
+    "href": "planning/quarto.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Rendering through the terminal and via RStudio R package {quarto} Different things to update Quarto is part of RStudio IDE, {quarto} is used in the IDE Can be other IDEs like Jupyter Notebooks or VS Code.\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/rendering\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/what-to-do-with-my-existing-.rmd-or-.ipynb\nRMarkdown is still maintained but new features will be built into Quarto\ncode-fold: yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/text-formatting\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/yaml-is-sensitive https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/why-yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/rendering https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/links\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/divs-and-spans\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/callout-blocks\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/figures-w-code\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/subfigures-fenced-div-class"
   },
   {
     "objectID": "quarto-summary.html",
@@ -105,52 +168,10 @@
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
-    "section": "",
-    "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
-  },
-  {
-    "objectID": "intro-r-rstudio-summary.html",
-    "href": "intro-r-rstudio-summary.html",
-    "title": "Introduction to R and RStudio workshop summary",
-    "section": "",
-    "text": "Based on the hugely popular Introduction to R and R Studio course run by NHS-R Community volunteers, the one day course has been extended into 3 half days and covers the principles of data manipulation. The concepts covered in the course, and even some function names, will be familiar to those who use SQL and this course is aimed at those who have not used R/RStudio before or used only very little of it (perhaps running other people’s work for example). As we work through the course we will be using and exploring Quarto to see how reports that mix text and code can be produced in R as well as be used as a way of managing analysis workflow."
-  },
-  {
-    "objectID": "intro-r-rstudio-summary.html#session-1-introduction-and-getting-started",
-    "href": "intro-r-rstudio-summary.html#session-1-introduction-and-getting-started",
-    "title": "Introduction to R and RStudio workshop summary",
-    "section": "Session 1: Introduction and getting started",
-    "text": "Session 1: Introduction and getting started\n\nCourse agenda and aims\nIntroducing and getting started with RStudio\nIntroducing what packages are in R\nProjects\nOpening Quarto"
-  },
-  {
-    "objectID": "intro-r-rstudio-summary.html#session-2-data-manipulation",
-    "href": "intro-r-rstudio-summary.html#session-2-data-manipulation",
-    "title": "Introduction to R and RStudio workshop summary",
-    "section": "Session 2: Data Manipulation",
-    "text": "Session 2: Data Manipulation\n\nImport a csv\nImport a messy csv\nImport a csv from the web\n{dplyr} data wrangling with a selection of main functions\n{dplyr} showcase more functions\nCreating new objects\nIntroducing vectors\nJoining data together\nHow to style your R code"
-  },
-  {
-    "objectID": "intro-r-rstudio-summary.html#session-3-categorical-variables",
-    "href": "intro-r-rstudio-summary.html#session-3-categorical-variables",
-    "title": "Introduction to R and RStudio workshop summary",
-    "section": "Session 3: Categorical Variables",
-    "text": "Session 3: Categorical Variables\n\nFinding help on functions using RStudio and the internet\nOngoing learning resources\nIntroducing chart visualisations using {ggplot2}\nUsing {datapasta}\nUsing {janitor} to remove blank rows/columns and tidy column names\nUsing {stringr} for cleaning with strings (for example % wildcard searches)"
-  },
-  {
     "objectID": "strategy-unit.html",
     "href": "strategy-unit.html",
     "title": "Strategy Unit information",
     "section": "",
     "text": "Strategy Unit information\nCourse information specific to training delivered through the Strategy Unit\n\n\nTrainers\nYour training will be led by:\nZoë Turner, Senior Data Science, The Strategy Unit, availability for booking.\n\n\nAudience\nThis course is free and available to …\n\n\nEquipment required\nThe course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the NHS-R Way book. See course pre-work for further set up information.\n\n\nLocation\nOnline – delivered via Zoom There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible."
-  },
-  {
-    "objectID": "other-courses.html",
-    "href": "other-courses.html",
-    "title": "Other courses",
-    "section": "",
-    "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
   }
 ]
