@@ -1,66 +1,10 @@
 [
   {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Testing",
+    "objectID": "strategy-unit.html",
+    "href": "strategy-unit.html",
+    "title": "Strategy Unit information",
     "section": "",
-    "text": "Testing"
-  },
-  {
-    "objectID": "shiny-summary.html",
-    "href": "shiny-summary.html",
-    "title": "Shiny basics course",
-    "section": "",
-    "text": "Originally written and delivered to the NHS-R Community, this one day course covers the basics of building a Shiny app. Shiny has always been well known amongst R coders for “code first” dashboards that can be worked on in collaboration with others. Whilst this course doesn’t cover the use of Python in Shiny there it is now possible to use either language in Shiny.\nThe course will be run over two half days and is aimed at analysts who are familiar with R, perhaps having completed the Introduction to R and RStudio training through the NHS-R Community."
-  },
-  {
-    "objectID": "shiny-summary.html#detailed-programme",
-    "href": "shiny-summary.html#detailed-programme",
-    "title": "Shiny basics course",
-    "section": "Detailed Programme",
-    "text": "Detailed Programme\nThe course is intended for analysts with little to no prior experience of Shiny and covers the following:\n\nIntroduction to Shiny and setting out your code\nYour first application\nBuild a real application\nSimplifying reactivity with reactive expressions\nOptional:\n\nNSE in Shiny applications\nBookmarks\n\nDynamic UI\nWriting nice error messages for your Shiny applications\nDownloading files/ Rmarkdown\nCustom layout functions\n{shinydashboard}\nInteracting with a Shiny plot"
-  },
-  {
-    "objectID": "shiny-summary.html#prerequisites",
-    "href": "shiny-summary.html#prerequisites",
-    "title": "Shiny basics course",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
-  },
-  {
-    "objectID": "planning/synthetic-data-planning.html",
-    "href": "planning/synthetic-data-planning.html",
-    "title": "Dummy data",
-    "section": "",
-    "text": "NHS England Synthetic A&E dataset. Issues with this dataset are that the data is grouped for categories like ages and arrival hour, it’s one data set that doesn’t need to be joined, is not presented in a way to find where people are re-attenders and the data set is large (1 Jan 2018 to 31 Mar 2018 is over 3 million rows). Some data is absent such as ethnicity.\nsynthpop generating synthetic versions of sensitive microdata for statistical disclosure control used in the https://synthpop.shinyapps.io/synthpop/ has sex, age, marital status, employment and smoking (yes/no)."
-  },
-  {
-    "objectID": "planning/synthetic-data-planning.html#background",
-    "href": "planning/synthetic-data-planning.html#background",
-    "title": "Dummy data",
-    "section": "",
-    "text": "NHS England Synthetic A&E dataset. Issues with this dataset are that the data is grouped for categories like ages and arrival hour, it’s one data set that doesn’t need to be joined, is not presented in a way to find where people are re-attenders and the data set is large (1 Jan 2018 to 31 Mar 2018 is over 3 million rows). Some data is absent such as ethnicity.\nsynthpop generating synthetic versions of sensitive microdata for statistical disclosure control used in the https://synthpop.shinyapps.io/synthpop/ has sex, age, marital status, employment and smoking (yes/no)."
-  },
-  {
-    "objectID": "package-dev.html",
-    "href": "package-dev.html",
-    "title": "R Forwards Package Development course",
-    "section": "",
-    "text": "The R Forwards 1 day course modularlised into 1 hour sessions to be held over 4 days in R package development and includes connecting to GitHub.\nThe course is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
-  },
-  {
-    "objectID": "package-dev.html#detailed-programme",
-    "href": "package-dev.html#detailed-programme",
-    "title": "R Forwards Package Development course",
-    "section": "Detailed Programme",
-    "text": "Detailed Programme\n\nIntroducing packages and the course\nSetting up your system (Windows only for NHS/public sector courses)\nYour first package\nPackage documentation"
-  },
-  {
-    "objectID": "package-dev.html#prerequisites",
-    "href": "package-dev.html#prerequisites",
-    "title": "R Forwards Package Development course",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nSome experience of coding in R. It will also help to have previously installed and loaded packages. Some experience of using Git and particularly GitHub is helpful but not essential."
+    "text": "Strategy Unit information\nCourse information specific to training delivered through the Strategy Unit\n\n\nTrainers\nYour training will be led by:\nZoë Turner, Senior Data Science, The Strategy Unit, availability for booking.\n\n\nAudience\nThis course is free and available to …\n\n\nEquipment required\nThe course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the NHS-R Way book. See course pre-work for further set up information.\n\n\nLocation\nOnline – delivered via Zoom There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible."
   },
   {
     "objectID": "intro-r-rstudio-summary.html",
@@ -98,41 +42,6 @@
     "text": "This website contains course and training information.\nInstructor led courses that are provided through The Strategy Unit (part of NHS Midlands & Lancashire Commissioning Support Unit) have summaries and prework.\nOther (free) self led or archived courses are listed together. This won’t be a comprehensive list and recommendations/corrections are always welcome."
   },
   {
-    "objectID": "intro-git-rstudio-summary.html",
-    "href": "intro-git-rstudio-summary.html",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "",
-    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html#session-1",
-    "href": "intro-git-rstudio-summary.html#session-1",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 1",
-    "text": "Session 1\n\nPrework - Get set up on a computer\nIntroduction - What is version control?\nVersion Control - What is Git/GitHub and how they relate to RStudio along with the ups and downs of Git\nWorkflow - Brief introduction to the Git and GitHub terminology\nWorkflow with {usethis} and {gert} - start work and making a commit"
-  },
-  {
-    "objectID": "intro-git-rstudio-summary.html#session-2",
-    "href": "intro-git-rstudio-summary.html#session-2",
-    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
-    "section": "Session 2:",
-    "text": "Session 2:\n\nPull Requests (PRs) - making pull request, pausing, resuming and finishing\nMerge conflict! - repeat steps from previous session and create a conflict merge\nCommit to main (and undo last commit!) - how committing is possible to the main and undo last commits\nUndo last merge - undoing a merge (reverting a pull request)\nExisting repositories - Getting copies of existing repositories"
-  },
-  {
-    "objectID": "other-courses.html",
-    "href": "other-courses.html",
-    "title": "Other courses",
-    "section": "",
-    "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
-  },
-  {
-    "objectID": "planning/quarto.html",
-    "href": "planning/quarto.html",
-    "title": "Untitled",
-    "section": "",
-    "text": "Rendering through the terminal and via RStudio R package {quarto} Different things to update Quarto is part of RStudio IDE, {quarto} is used in the IDE Can be other IDEs like Jupyter Notebooks or VS Code.\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/rendering\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/what-to-do-with-my-existing-.rmd-or-.ipynb\nRMarkdown is still maintained but new features will be built into Quarto\ncode-fold: yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/01-intro-quarto.html#/text-formatting\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/yaml-is-sensitive https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/why-yaml https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/rendering https://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/links\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/divs-and-spans\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/callout-blocks\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/figures-w-code\nhttps://rstudio-conf-2022.github.io/get-started-quarto/materials/02-authoring.html#/subfigures-fenced-div-class"
-  },
-  {
     "objectID": "quarto-summary.html",
     "href": "quarto-summary.html",
     "title": "Introduction to Quarto course",
@@ -168,10 +77,73 @@
     "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
   },
   {
-    "objectID": "strategy-unit.html",
-    "href": "strategy-unit.html",
-    "title": "Strategy Unit information",
+    "objectID": "other-courses.html",
+    "href": "other-courses.html",
+    "title": "Other courses",
     "section": "",
-    "text": "Strategy Unit information\nCourse information specific to training delivered through the Strategy Unit\n\n\nTrainers\nYour training will be led by:\nZoë Turner, Senior Data Science, The Strategy Unit, availability for booking.\n\n\nAudience\nThis course is free and available to …\n\n\nEquipment required\nThe course will be run through Posit Cloud but if you would like to use your own computer please ensure that you have the latest R and R Studio installed. Information on how Posit Cloud is used by NHS-R Community and The Strategy Unit is written in the NHS-R Way book. See course pre-work for further set up information.\n\n\nLocation\nOnline – delivered via Zoom There will be screen sharing of the slide content alongside live coding and so the recommendation is to have two screens, if possible."
+    "text": "Other courses\nLinks to free courses provided by the NHS, Government Data Science Campus and Universities can be found in the Open Analytics Resources book maintained by NHS-R Community.\nThe list is not exhaustive and includes SQL, Python, R, Git and Reproducible Analytical Pipelines."
+  },
+  {
+    "objectID": "shiny-summary.html",
+    "href": "shiny-summary.html",
+    "title": "Shiny basics course",
+    "section": "",
+    "text": "Originally written and delivered to the NHS-R Community, this one day course covers the basics of building a Shiny app. Shiny has always been well known amongst R coders for “code first” dashboards that can be worked on in collaboration with others. Whilst this course doesn’t cover the use of Python in Shiny there it is now possible to use either language in Shiny.\nThe course will be run over two half days and is aimed at analysts who are familiar with R, perhaps having completed the Introduction to R and RStudio training through the NHS-R Community."
+  },
+  {
+    "objectID": "shiny-summary.html#detailed-programme",
+    "href": "shiny-summary.html#detailed-programme",
+    "title": "Shiny basics course",
+    "section": "Detailed Programme",
+    "text": "Detailed Programme\nThe course is intended for analysts with little to no prior experience of Shiny and covers the following:\n\nIntroduction to Shiny and setting out your code\nYour first application\nBuild a real application\nSimplifying reactivity with reactive expressions\nOptional:\n\nNSE in Shiny applications\nBookmarks\n\nDynamic UI\nWriting nice error messages for your Shiny applications\nDownloading files/ Rmarkdown\nCustom layout functions\n{shinydashboard}\nInteracting with a Shiny plot"
+  },
+  {
+    "objectID": "shiny-summary.html#prerequisites",
+    "href": "shiny-summary.html#prerequisites",
+    "title": "Shiny basics course",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThe material is pitched at analysts with at least beginner level of R."
+  },
+  {
+    "objectID": "package-dev.html",
+    "href": "package-dev.html",
+    "title": "R Forwards Package Development course",
+    "section": "",
+    "text": "The R Forwards 1 day course modularlised into 1 hour sessions to be held over 4 days in R package development and includes connecting to GitHub.\nThe course is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "package-dev.html#detailed-programme",
+    "href": "package-dev.html#detailed-programme",
+    "title": "R Forwards Package Development course",
+    "section": "Detailed Programme",
+    "text": "Detailed Programme\n\nIntroducing packages and the course\nSetting up your system (Windows only for NHS/public sector courses)\nYour first package\nPackage documentation"
+  },
+  {
+    "objectID": "package-dev.html#prerequisites",
+    "href": "package-dev.html#prerequisites",
+    "title": "R Forwards Package Development course",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nSome experience of coding in R. It will also help to have previously installed and loaded packages. Some experience of using Git and particularly GitHub is helpful but not essential."
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html",
+    "href": "intro-git-rstudio-summary.html",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "",
+    "text": "As recommended in the Better, Broader, Safer review NHSA 15. Embrace RAP and modern, open working methods version control and GitHub are recommended for intermediate and advanced analyst training. This course is an introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}.\nThis course will be run over two half days and is aimed at analysts who are familiar with RStudio and R, perhaps having completed the introduction to R and RStudio training through the MDSN or NHS-R Community."
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-1",
+    "href": "intro-git-rstudio-summary.html#session-1",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 1",
+    "text": "Session 1\n\nPrework - Get set up on a computer\nIntroduction - What is version control?\nVersion Control - What is Git/GitHub and how they relate to RStudio along with the ups and downs of Git\nWorkflow - Brief introduction to the Git and GitHub terminology\nWorkflow with {usethis} and {gert} - start work and making a commit"
+  },
+  {
+    "objectID": "intro-git-rstudio-summary.html#session-2",
+    "href": "intro-git-rstudio-summary.html#session-2",
+    "title": "Introduction to Git and GitHub (RStudio) workshop summary",
+    "section": "Session 2:",
+    "text": "Session 2:\n\nPull Requests (PRs) - making pull request, pausing, resuming and finishing\nMerge conflict! - repeat steps from previous session and create a conflict merge\nCommit to main (and undo last commit!) - how committing is possible to the main and undo last commits\nUndo last merge - undoing a merge (reverting a pull request)\nExisting repositories - Getting copies of existing repositories"
   }
 ]
