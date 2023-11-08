@@ -29,7 +29,6 @@ website:
       - shiny-summary.qmd
       - strategy-unit.qmd
       - other-courses.qmd
-      - test.qmd
   page-navigation: true
 
 
