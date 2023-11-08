@@ -13,22 +13,18 @@ This course will be run over two half days and is aimed at analysts who are fami
 # Detailed Programme
 
 ## Session 1
-- What is Git and GitHub and why these are important to data analysis
-- Setting up for Git and GitHub
-- Explaining Git terminology
-- Take existing R project to GitHub
-- First workflow: 
-    - start a new project (naming branches)
-    - taking snapshots (creating commits)
-    - making it public on GitHub (pushing)
-- Second workflow:
-    - finding a branch to continue working from
-    - Pausing work for later
-- Open pull requests to the main branch
+- Prework - Get set up on a computer
+- Introduction - What is version control?
+- Version Control - What is Git/GitHub and how they relate to RStudio along with the ups and downs of Git
+- Workflow - Brief introduction to the Git and GitHub terminology
+- Workflow with {usethis} and {gert} - start work and making a commit
 
 ## Session 2: 
-- Repeat first workflow and create a merge conflict!
-- How to resolve a merge conflict 
+- Pull Requests (PRs) - making pull request, pausing, resuming and finishing
+- Merge conflict! - repeat steps from previous session and create a conflict merge
+- Commit to main (and undo last commit!) - how committing is possible to the main and undo last commits
+- Undo last merge - undoing a merge (reverting a pull request)
+- Existing repositories - Getting copies of existing repositories
 
 # Pre-requisites
 Some previous knowledge of R and familiarity with RStudio is expected.
@@ -37,4 +33,4 @@ Some previous knowledge of R and familiarity with RStudio is expected.
 2 half days (3.5 hours each day)
 
 # Course materials
-[Slides](https://intro-git-github.nhsrcommunity.com/) are published through GitHub).
+[Slides](https://intro-git-github.nhsrcommunity.com/) are published through GitHub.
