@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/nhs-r-community/strategy-unit.html</loc>
-    <lastmod>2023-11-08T16:18:42.543Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/nhs-r-community/intro-r-rstudio-summary.html</loc>
-    <lastmod>2023-11-08T16:18:41.803Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/nhs-r-community/index.html</loc>
-    <lastmod>2023-11-08T16:18:40.987Z</lastmod>
+    <loc>https://github.com/nhs-r-community/package-dev.html</loc>
+    <lastmod>2024-04-16T10:54:18.957Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/nhs-r-community/quarto-summary.html</loc>
-    <lastmod>2023-11-08T16:18:40.234Z</lastmod>
+    <lastmod>2024-04-16T10:54:18.957Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/other-courses.html</loc>
-    <lastmod>2023-11-08T16:18:38.370Z</lastmod>
+    <loc>https://github.com/nhs-r-community/strategy-unit.html</loc>
+    <lastmod>2024-04-16T10:54:18.957Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/shiny-summary.html</loc>
-    <lastmod>2023-11-08T16:18:40.619Z</lastmod>
+    <loc>https://github.com/nhs-r-community/intro-r-rstudio-summary.html</loc>
+    <lastmod>2024-04-16T10:54:18.957Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nhs-r-community/package-dev.html</loc>
-    <lastmod>2023-11-08T16:18:41.375Z</lastmod>
+    <loc>https://github.com/nhs-r-community/index.html</loc>
+    <lastmod>2024-04-16T10:54:18.957Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/nhs-r-community/intro-git-rstudio-summary.html</loc>
-    <lastmod>2023-11-08T16:18:42.195Z</lastmod>
+    <lastmod>2024-04-16T10:54:18.957Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/shiny-summary.html</loc>
+    <lastmod>2024-04-16T10:54:18.957Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhs-r-community/other-courses.html</loc>
+    <lastmod>2024-04-16T10:54:18.957Z</lastmod>
   </url>
 </urlset>
